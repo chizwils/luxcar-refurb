@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HOME</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+    
+    <script src='app.js' rel=''></script>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div class=''>
+        <!------By Price------->
+        <ul id='price' class='dropdown-content'>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/price/50000">Less than $50K (2)</a></li>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/price/75000">Less than $75K (2)</a></li>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/price/100000">Less than $100K (2)</a></li>
+        </ul>
+        <!------Inventory------>
+        <ul id='inventory' class='dropdown-content'>
+            <li><a href='#!'>All Vehicles</a></li>
+            <li><a href='#!'>by Make</a></li>
+            <li><a href='#!'>by Body Style</a>
+            </li>
+            <li><a class='dropdown-button' href='#!' data-activates='price'>by Price</a>
+            </li>
+            <li><a href='#!'>by Mileage</a></li>
+        </ul>
+        
+        <!--------By Body Type dropdown------>
+        <ul id='body-type' class='dropdown-content'>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/body_style/Convertible/for-sale-in-humble-tx-77338">Convertible (5)</a></li>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/body_style/Coupe/for-sale-in-humble-tx-77338">Coupe (3)</a></li>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/body_style/SUV/for-sale-in-humble-tx-77338">SUV (1)</a></li>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/body_style/Sedan/for-sale-in-humble-tx-77338">Sedan (4)</a></li>
+        </ul>
+        <!---------- By Mileage_---->
+        <ul id='mileage' class='dropdown-content'>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/mileage/25000">Less than 25K (7) miles</a></li>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/mileage/50000">Less than 50K (10) miles</a></li>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/mileage/100000">Less than 100K (12) miles</a></li>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/mileage/150000">Less than 150K (12) miles</a></li>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/mileage/200000">Less than 200K (12) miles</a></li>
+        </ul>
+
+
+        <nav>
+            <div class='nav-wrapper black-text'>
+
+
+                <a href='#!' class='brand-logo logo'>Centurison Auto Group</a>
+                <a href='#' data-activates='mobile-demo' class='button-collapse'><i class='material-icons'>menu</i></a>
+
+                <ul id='nav-mobile' class='right hide-on-med-and-down'>
+                    <li><a class='dropdown-button' data-beloworigin="true" href='#!' data-activates='inventory'><i class='material-icons right'>arrow_drop_down</i>Search Inventory</a>
+                    </li>
+                    <li><a href='#'>Credit Application</a></li>
+                    <li><a>Contact</a></li>
+                  
+                    <li><a><i class='material-icons left'>phone</i></a></li>
+                    <li><a><i class='material-icons left'>email</i></a></li>
+                    <li><a><i class='material-icons left'>location_on</i></a></li>
+                </ul>
+                
+                
+
+            </div>
+        </nav>
+        <!--------CONTACT-------->
+        <div class='container contact'>
+            <div class='row'>
+            <form  class='col s12'>
+                
+                <div class='row'>
+                    <div  class='input-field col s6'>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">Full Name</label>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div  class='input-field col s6'>
+                        <input id="email"  type="email" class="validate">
+                        <label for="email"data-error='Please input a valid email address.' data-success="Proceed">Email</label>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div  class='input-field col s6'>
+                        <input id="icon_prefix" type="tel" class="validate">
+                        <label for="icon_prefix">Telephone</label>
+                    </div>
+                </div>
+                <div class="row">
+        <div class="input-field col s6">
+          <textarea id="textarea1" class="materialize-textarea" data-length='300'></textarea>
+          <label for="textarea1">Question/Comments</label>
+                    </div></div>
+                </form></div>
+        </div>
+    </div>
+    <div>
+
+
+    </div>
+    
+</body>
+
+</html>
