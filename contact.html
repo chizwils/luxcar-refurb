@@ -5,15 +5,15 @@
     <title>HOME</title>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
-    
+
     <script src='app.js' rel=''></script>
     <link rel="stylesheet" href="index.css">
 
@@ -37,7 +37,7 @@
             </li>
             <li><a href='#!'>by Mileage</a></li>
         </ul>
-        
+
         <!--------By Body Type dropdown------>
         <ul id='body-type' class='dropdown-content'>
             <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/body_style/Convertible/for-sale-in-humble-tx-77338">Convertible (5)</a></li>
@@ -66,53 +66,89 @@
                     <li><a class='dropdown-button' data-beloworigin="true" href='#!' data-activates='inventory'><i class='material-icons right'>arrow_drop_down</i>Search Inventory</a>
                     </li>
                     <li><a href='#'>Credit Application</a></li>
-                    <li><a>Contact</a></li>
-                  
-                    <li><a><i class='material-icons left'>phone</i></a></li>
+                    <li><a class='active'>Contact</a></li>
+
+                    <li><a class='tooltipped' data-position='left' data-delay="50" data-tooltip="281-570-6158"><i class='material-icons left'>phone</i></a></li>
                     <li><a><i class='material-icons left'>email</i></a></li>
                     <li><a><i class='material-icons left'>location_on</i></a></li>
                 </ul>
-                
-                
+
+
 
             </div>
         </nav>
-        <!--------CONTACT-------->
+       
+        <!------MAPS------>
+        <div class='map row'>
+            <div class='col s12'>
+                <!---AIzaSyAyVVHMBEY8RO_BgMRc816cFuFx9RPA2wY--->
+                <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=8331%20Farm%20to%20Market%201960%20Bypass%20Rd%20W%20e%2C%20Humble%2C%20TX%2077338&key=AIzaSyAyVVHMBEY8RO_BgMRc816cFuFx9RPA2wY" allowfullscreen></iframe>
+            </div>
+
+
+        </div>
+         <!--------CONTACT-------->
         <div class='container contact'>
             <div class='row'>
-            <form  class='col s12'>
-                
-                <div class='row'>
-                    <div  class='input-field col s6'>
-                        <input id="icon_prefix" type="text" class="validate">
-                        <label for="icon_prefix">Full Name</label>
+                <form class='col s12'>
+
+                    <div class='row'>
+                        <div class='input-field col s6'>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">Full Name</label>
+                        </div>
                     </div>
-                </div>
-                <div class='row'>
-                    <div  class='input-field col s6'>
-                        <input id="email"  type="email" class="validate">
-                        <label for="email"data-error='Please input a valid email address.' data-success="Proceed">Email</label>
+                    <div class='row'>
+                        <div class='input-field col s6'>
+                            <input id="email" type="email" class="validate">
+                            <label for="email" data-error='Please input a valid email address.' data-success="Proceed">Email</label>
+                        </div>
                     </div>
-                </div>
-                <div class='row'>
-                    <div  class='input-field col s6'>
-                        <input id="icon_prefix" type="tel" class="validate">
-                        <label for="icon_prefix">Telephone</label>
+                    <div class='row'>
+                        <div class='input-field col s6'>
+                            <input id="icon_prefix" type="tel" class="validate">
+                            <label for="icon_prefix">Telephone</label>
+                        </div>
                     </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <textarea id="textarea1" class="materialize-textarea" data-length='300'></textarea>
+                            <label for="textarea1">Question/Comments</label>
+                        </div>
+                    </div>
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+                </form>
+            </div>
+        </div>
+        <!-----contact info --->
+        <div class='info container'>
+            <div class ='row'>
+                <div class ='telephone col s4'>
+                    <div><i class='material-icons'>phone</i></div>
+                    <div><p>281-570-6158.</p></div>
                 </div>
-                <div class="row">
-        <div class="input-field col s6">
-          <textarea id="textarea1" class="materialize-textarea" data-length='300'></textarea>
-          <label for="textarea1">Question/Comments</label>
+                <div class='location col s4'>
+                     <div><i class='material-icons '>location_on</i></div>
+                    <div><p>8331 FM 1960 Bypass Rd West Ste. E<br/>Humble, TX 77338.</p></div>
+                </div>
+                <div class='email col s4'>
+                    <div><i class='material-icons '>email</i></div>
+                    <div><p>cenuturionautogroup@gmail.com</p></div>
+                </div>
+                <div class='row you'>
+                <div class='col s4'>
+                    <div><i class='material-icons '>timelapse</i></div>
+                    <div><p>Monday- Friday 9AM-5PM</p></div>
                     </div></div>
-                </form></div>
+            </div>
         </div>
     </div>
-    <div>
 
 
-    </div>
-    
+
+
 </body>
 
 </html>
