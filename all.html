@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HOME</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+
+    <script src='app.js' rel=''></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class='#fafafa grey-text text-lighten-5'>
+        <!------By Price------->
+        <ul id='price' class='dropdown-content'>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/price/50000">Less than $50K (2)</a></li>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/price/75000">Less than $75K (2)</a></li>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/price/100000">Less than $100K (2)</a></li>
+        </ul>
+        <!------Inventory------>
+        <ul id='inventory' class='dropdown-content'>
+            <li><a href='#!'>All Vehicles</a></li>
+            <li><a href='#!'>by Make</a></li>
+            <li><a href='#!'>by Body Style</a>
+            </li>
+            <li><a class='dropdown-button' href='#!' data-activates='price'>by Price</a>
+            </li>
+            <li><a href='#!'>by Mileage</a></li>
+        </ul>
+
+        <!--------By Body Type dropdown------>
+        <ul id='body-type' class='dropdown-content'>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/body_style/Convertible/for-sale-in-humble-tx-77338">Convertible (5)</a></li>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/body_style/Coupe/for-sale-in-humble-tx-77338">Coupe (3)</a></li>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/body_style/SUV/for-sale-in-humble-tx-77338">SUV (1)</a></li>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/body_style/Sedan/for-sale-in-humble-tx-77338">Sedan (4)</a></li>
+        </ul>
+        <!---------- By Mileage_---->
+        <ul id='mileage' class='dropdown-content'>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/mileage/25000">Less than 25K (7) miles</a></li>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/mileage/50000">Less than 50K (10) miles</a></li>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/mileage/100000">Less than 100K (12) miles</a></li>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/mileage/150000">Less than 150K (12) miles</a></li>
+            <li><a href="http://centurionautogroup.motorcarsites.com/vehicle_listings/mileage/200000">Less than 200K (12) miles</a></li>
+        </ul>
+
+
+        <nav>
+            <div class='nav-wrapper black-text'>
+
+
+                <a class='brand-logo logo black-text' href='index.html'>Centurison Auto Group</a>
+                <a href='#' data-activates='mobile-demo' class='button-collapse black-text'><i class='material-icons'>menu</i></a>
+
+                <ul id='nav-mobile' class='right hide-on-med-and-down'>
+                    <li><a class='dropdown-button black-text' data-beloworigin="true" href='#!' data-activates='inventory'><i class='material-icons right'>arrow_drop_down</i>Search Inventory</a>
+                    </li>
+                    <li><a href='#' class="black-text">Credit Application</a></li>
+                    <li><a class='active black-text'>Contact</a></li>
+
+                    <li><a class='tooltipped' data-position='left' data-delay="50" data-tooltip="281-570-6158"><i class='material-icons left black-text'>phone</i></a></li>
+                    <li><a class="black-text"><i class='material-icons left'>email</i></a></li>
+                    <li><a class="black-text"><i class='material-icons left'>location_on</i></a></li>
+                </ul>
+
+
+
+            </div>
+        </nav>
+        <!----------------CAR LIST----------->
+        <div class='list container'>
+            <div class="row">
+                <div class='col s8'>
+                    <div class="row ">
+                        <div class="input-field col s5">
+                            <select class="black-text">
+                               <option class="black-text"value='' disabled selected>SORT BY</option>
+                               <option class="black-text"value='1' >Year</option>
+                                <option class="black-text"value='LH' >Low to High</option>
+                                <option class="black-text"value='HL' >High to Low</option>
+                                <option class="black-text" value='Make' >Make</option>
+                           </select>
+                            <label>SORT BY:</label>
+
+
+                        </div>
+                    </div>
+                    <div class="inner-list col 12">
+                        <div class='row'>
+                            <div class='col s6 '>
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src='http://dealers.motorcarmarkdown.com/images/vehicles/large/image_150164_1400485-7-large.jpg'>
+
+
+                                    </div>
+                                    <div class="card-content">
+                                        <p class="black-text">2016 Chevrolet Stingray<br>$99,999,<br>2,036 miles</p>
+                                    </div>
+                                    <div class="card-link">
+                                        <a class="btn  waves-effect waves-light "><i class="material-icons"></i>APPLY</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='col s6 '>
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src='http://dealers.motorcarmarkdown.com/images/vehicles/large/image_150164_1400485-7-large.jpg'>
+
+                                    </div>
+                                    <div class="card-content">
+                                        <p class="black-text">2016 Chevrolet Stingray<br>$99,999,<br>2,036 miles</p>
+                                    </div>
+                                    <div class="card-link">
+
+                                        <a class="btn  waves-effect waves-light "><i class="material-icons"></i>APPLY</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='col s6 '>
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src='http://dealers.motorcarmarkdown.com/images/vehicles/large/image_150164_1400485-7-large.jpg'>
+
+                                    </div>
+                                    <div class="card-content">
+                                        <p class="black-text">2016 Chevrolet Stingray<br>$99,999<br>2,036 miles</p>
+                                    </div>
+                                    <div class="card-link">
+
+                                        <a class="btn  waves-effect waves-light "><i class="material-icons"></i>APPLY</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='col s6 '>
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src='http://dealers.motorcarmarkdown.com/images/vehicles/large/image_150164_1400485-7-large.jpg'>
+
+                                    </div>
+                                    <div class="card-content">
+                                        <p class="black-text">2016 Chevrolet Stingray<br>$99,999<br>2,036 miles</p>
+                                    </div>
+                                    <div class="card-link">
+
+                                        <a class="btn  waves-effect waves-light "><i class="material-icons"></i>APPLY</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='col s6 '>
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src='http://dealers.motorcarmarkdown.com/images/vehicles/large/image_150164_1400485-7-large.jpg'>
+
+                                    </div>
+                                    <div class="card-content">
+                                        <p class="black-text">2016 Chevrolet Stingray<br>$99,999<br>2,036 miles</p>
+                                    </div>
+                                    <div class="card-link">
+
+                                        <a class="btn  waves-effect waves-light "><i class="material-icons"></i>APPLY</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='col s6 '>
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src='http://dealers.motorcarmarkdown.com/images/vehicles/large/image_150164_1400485-7-large.jpg'>
+
+                                    </div>
+                                    <div class="card-content">
+                                        <p class="black-text">2016 Chevrolet Stingray<br>$99,999<br>2,036 miles</p>
+                                    </div>
+                                    <div class="card-link">
+
+                                        <a class="btn  waves-effect waves-light "><i class="material-icons"></i>APPLY</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='col s6 '>
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src='http://dealers.motorcarmarkdown.com/images/vehicles/large/image_150164_1400485-7-large.jpg'>
+
+                                    </div>
+                                    <div class="card-content">
+                                        <p class="black-text">2016 Chevrolet Stingray<br>$99,999<br>2,036 miles</p>
+                                    </div>
+                                    <div class="card-link">
+
+                                        <a class="btn  waves-effect waves-light "><i class="material-icons"></i>APPLY</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='col s6 '>
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src='http://dealers.motorcarmarkdown.com/images/vehicles/large/image_150164_1400485-7-large.jpg'>
+
+                                    </div>
+                                    <div class="card-content">
+                                        <p class="black-text">2016 Chevrolet Stingray<br>$99,999<br>2,036 miles</p>
+                                    </div>
+                                    <div class="card-link">
+
+                                        <a class="btn  waves-effect waves-light "><i class="material-icons"></i>APPLY</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='col s6 '>
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src='http://dealers.motorcarmarkdown.com/images/vehicles/large/image_150164_1400485-7-large.jpg'>
+
+                                    </div>
+                                    <div class="card-content">
+                                        <p class="black-text">2016 Chevrolet Stingray<br>$99,999<br>2,036 miles</p>
+                                    </div>
+                                    <div class="card-link">
+
+                                        <a class="btn  waves-effect waves-light "><i class="material-icons"></i>APPLY</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col s4 side-contact ">
+                    <h5 class='black-text'>Contact</h5>
+                    <p class='black-text'>8331 FM 1960 Bypass Rd West Ste. E<br> Humble, TX 77338</p>
+                    <a class='black-text'><i class="material-icons left ">phone</i>Phone: 281-570-6158</a>
+                </div>
+            </div>
+            
+        </div>
+        <!--------------FOOOOTER_------>
+        <div>
+            <footer class='page-footer grey lighten-4'>
+
+                <div class='container'>
+                    <div class="row">
+                        <div class='col s4'>
+                            <h5 class='black-text'>Centurion Auto Group</h5>
+                            <hr>
+                            <p class='black-text '>8331 FM 1960 Bypass Rd West Ste. E<br/> Humble, TX 77338<br/> Phone: 281-570-6158<br/> Email: cenuturionautogroup@gmail.com</p>
+                        </div>
+                        <div class='col s4'>
+                            <h5 class='black-text'>Hours Of Operation</h5>
+                            <hr>
+                            <p class='black-text'>Monday- Friday 9AM-5PM</p>
+                        </div>
+                        <div class='col s4'>
+                            <h5 class='black-text'>Website</h5>
+                            <hr>
+                            <ul>
+                                <li><a class='black-text'>Contact Us</a></li>
+                                <li><a class='black-text'>Credit Application</a></li>
+                                <li><a class='black-text'>Privacy Policy</a></li>
+                                <li><a class='black-text'>Terms of Use</a></li>
+                                <li><a class='black-text'>Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class='footer-copyright'>
+                    <div class="container black-text text-lighten-4">Copyright © Centurion Auto Group </div>
+                </div>
+            </footer>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

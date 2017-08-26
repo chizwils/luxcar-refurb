@@ -8,7 +8,7 @@ html{
         font-size: 14px !important;
 
     font-family: monospace;
-    background: #757575 ;
+    background: white ;
 
 }
 ul{
@@ -37,4 +37,34 @@ iframe{
 }
 .slider{
     z-index: -100;
+    
+}
+.know{
+    position: relative;
+    
+    top: 30%;
+    left: 10px;
+    overflow: hidden;
+    z-index: 10px;
+}
+.desc{
+     background:url('https://static.pexels.com/photos/97079/pexels-photo-97079.jpeg') no-repeat 0% 0%;
+   background-size:cover;
+    height: 600px;
+    overflow: hidden;
+    opacity: 0;
+}
+.land{
+    height: 350px;
+}
+.categories .btn, .tradein .btn {
+    
+    width: 200px;
+}
+.side-contact{
+    position: relative;
+    top: 100px;
+}
+.ult li{
+    opacity: 0;
 }
