@@ -7,7 +7,7 @@ nav{
 html{
         font-size: 14px !important;
 
-    font-family: monospace;
+    font-family: 'Space Mono', monospace;
     background: white ;
 
 }
@@ -15,10 +15,24 @@ ul{
     background: transparent;
 }
 .brand-logo{
-    font-size: 1.4em!important;
+    font-size: 1.7em!important;
     margin-left: 10px;
     font-weight: 100!mportant;
+    line-height: 15px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    margin-top: 10px;
+    letter-spacing: 0.5em;
     
+}
+.l-logo{
+    font-size: 12px;
+    line-height: 1px;
+    position: relative;
+    left: 10px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+        
 }
 a{
     color:auto;
@@ -67,4 +81,19 @@ iframe{
 }
 .ult li{
     opacity: 0;
+}
+/*********TYPOGRPHY*******/
+h5{
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 20px;
+    letter-spacing: 2px;
+        
+}
+p{
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 14px;
+    
 }
